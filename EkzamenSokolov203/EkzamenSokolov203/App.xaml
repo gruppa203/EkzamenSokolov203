@@ -1,0 +1,23 @@
+﻿<Application x:Class="EkzamenSokolov203.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EkzamenSokolov203"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="Glavnoe_Nazvanie" TargetType="Label">
+            <Setter Property="Foreground" Value="Blue"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style x:Key="Avtorizaciya" TargetType="Label">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+        </Style>
+        <Style x:Key="KnopkiAvrotizacii" TargetType="Button">
+            <Setter Property="Foreground" Value="Blue"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+        </Style>
+    </Application.Resources>
+</Application>

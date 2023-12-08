@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище BDSokolovModelContainer" CdmEntityContainer="BDSokolovEntities">
+    <EntitySetMapping Name="Kategorii">
+      <EntityTypeMapping TypeName="BDSokolovModel.Kategorii">
+        <MappingFragment StoreEntitySet="Kategorii">
+          <ScalarProperty Name="Nazvanie_Kategorii" ColumnName="Nazvanie_Kategorii" />
+          <ScalarProperty Name="Cod_Kategorii" ColumnName="Cod_Kategorii" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Polzovateli">
+      <EntityTypeMapping TypeName="BDSokolovModel.Polzovateli">
+        <MappingFragment StoreEntitySet="Polzovateli">
+          <ScalarProperty Name="Nomer_Roli" ColumnName="Nomer_Roli" />
+          <ScalarProperty Name="Parol" ColumnName="Parol" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Familiya_Polzovatelya" ColumnName="Familiya_Polzovatelya" />
+          <ScalarProperty Name="Imya_Polzovatelya" ColumnName="Imya_Polzovatelya" />
+          <ScalarProperty Name="Cod_Polzovatelya" ColumnName="Cod_Polzovatelya" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Postavchiki">
+      <EntityTypeMapping TypeName="BDSokolovModel.Postavchiki">
+        <MappingFragment StoreEntitySet="Postavchiki">
+          <ScalarProperty Name="Nazvanie_Postavchika" ColumnName="Nazvanie_Postavchika" />
+          <ScalarProperty Name="Cod_Postavchika" ColumnName="Cod_Postavchika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proizvoditeli">
+      <EntityTypeMapping TypeName="BDSokolovModel.Proizvoditeli">
+        <MappingFragment StoreEntitySet="Proizvoditeli">
+          <ScalarProperty Name="Nazvanie_Proizvoditelya" ColumnName="Nazvanie_Proizvoditelya" />
+          <ScalarProperty Name="Cod_Proizvoditelya" ColumnName="Cod_Proizvoditelya" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roli">
+      <EntityTypeMapping TypeName="BDSokolovModel.Roli">
+        <MappingFragment StoreEntitySet="Roli">
+          <ScalarProperty Name="Nazvanie_Roli" ColumnName="Nazvanie_Roli" />
+          <ScalarProperty Name="Cod_Roli" ColumnName="Cod_Roli" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tovari">
+      <EntityTypeMapping TypeName="BDSokolovModel.Tovari">
+        <MappingFragment StoreEntitySet="Tovari">
+          <ScalarProperty Name="Izobrajenie" ColumnName="Izobrajenie" />
+          <ScalarProperty Name="Opisanie" ColumnName="Opisanie" />
+          <ScalarProperty Name="Kol_vo_Na_Sklade" ColumnName="Kol_vo_Na_Sklade" />
+          <ScalarProperty Name="Deistvyushaya_Skidka" ColumnName="Deistvyushaya_Skidka" />
+          <ScalarProperty Name="Nomer_Kategorii" ColumnName="Nomer_Kategorii" />
+          <ScalarProperty Name="Nomer_Postavchika" ColumnName="Nomer_Postavchika" />
+          <ScalarProperty Name="Nomer_Proizvoditel" ColumnName="Nomer_Proizvoditel" />
+          <ScalarProperty Name="Maks_Skidka" ColumnName="Maks_Skidka" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+          <ScalarProperty Name="Edenica_Izmereniya" ColumnName="Edenica_Izmereniya" />
+          <ScalarProperty Name="Nazvanie_Tovara" ColumnName="Nazvanie_Tovara" />
+          <ScalarProperty Name="Cod_Tovara" ColumnName="Cod_Tovara" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
